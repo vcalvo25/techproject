@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Python: The Basics</title>
+</head>
+
+<body>
+
+  <!--Navbar-->
+    <nav id="navbar">
+      <header><strong>Python Technical Documentation</strong></header>
+      <div class="nav-bar">
+        <ul id="nav-bar">
+        <li><a class="nav-link" href="#What_Is_Python?">What is Python?</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+        <li><a class="nav-link" href="#Lists">Lists</a></li>
+        <li><a class="nav-link" href="#Dictionaries">Dictionaries</a></li>
+        <li><a class="nav-link" href="#IF_Statements_&_Loops">IF Statements & Loops</a></li>
+        <li><a class="nav-link" href="#Functions">Functions</a></li>
+        <li><a class="nav-link" href="#Try_It_Yourself!">Try it Yourself!</a></li>
+        <li><a class="nav-link" href="#Resources">Resources</a></li>
+        </ul>
+      </div>
+      </nav>
+
+  <main id="main-doc">
+    <!--What Is Python?-->
+    <section class="main-section" id="What_Is_Python?">
+      <header>What is Python?</header>
+      <p>Python is a powerful, high-level programming language that is widely used in web development, data science,
+        automation, and more. Known for its readability and simplicity, Python is an excellent choice for beginners.
+        This guide will introduce you to the basics of Python and help you get started on your coding journey.</p>
+    </section>
+
+    <!--Variables-->
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>Variables are used to store information that can be used and manipulated in your program.</p>
+      <code>name = "Alice" age = 25</code>
+    </section>
+
+    <!--Data Types-->
+    <section class="main-section" id="Data_Types">
+      <header>Data Types</header>
+      <p>Python has several built-in data types:</p>
+      <ul>
+      <li><strong>Strings:</strong> Text data, enclosed in quotes.</li>
+      <code>greeting = "Hello, World!"</code>
+      <li><strong>Integers:</strong> Whole numbers.</li>
+      <code>count = 10</code>
+      <li><strong>Floats:</strong> Decimal numbers.</li>
+      <code>price = 19.99</code>
+      <li><strong>Booleans:</strong> True or False values.</li>
+      <code>is_active = True</code>
+      <li><strong>Sets:</strong> An unordered collection of data types.</li>
+      <code>set1 = set("freeCodeCamp")
+print("\nSet with the use of String: ")
+print(set1)
+      </code>
+      </ul>
+    </section>
+
+    <!--Lists-->
+    <section class="main-section" id="Lists">
+      <header><strong>Lists</strong></header>
+      <p>A list is an ordered collection of items.</p>
+      <code>mylist = ["apple", "banana", "cherry"]</code>
+    </section>
+
+    <!--Dictionaries-->
+    <section class="main-section" id="Dictionaries">
+      <header><strong>Dictionaries</strong></header>
+      <p>A dictionary stores data in key-value pairs.</p>
+      <code>person = {"name": "Alice", "age": 25}</code>
+    </section>
+
+    <!--If Statements & Loops-->
+    <section class="main-section" id="IF_Statements_&_Loops">
+      <header><strong>IF Statements & Loops</strong></header>
+      <h3>IF Statements</h3>
+      <p>Use if statements to execute code based on conditions.</p>
+      <code>age = 18
+        if age >= 18:
+          print("You are an adult.")
+        else: 
+          print("You are a minor.")
+      </code>
+
+      <h3>Loops</h3>
+      <p>Loops allow you to execute code multiple times.</p>
+        <ul>
+        <li><p><strong>For Loop</strong></p></li>
+        <p>For loops are used to iterate over a sequenece and execute a block of code for each element in the sequence.</p>
+      <code>for i in range(5):
+        print(i)
+      </code>
+      <li><p><strong>While Loop</strong></p></li>
+      <p>A while loop repeatedly executes a block of code as long as a given condition is true.</p>
+        <code>count = 0
+          while count < 5:
+          print (count)
+          count += 1
+      </code>
+      </ul>
+    </section>
+
+    <!--Functions-->
+    <section class="main-section" id="Functions">
+      <header><strong>Functions</strong></header>
+      <p>Functions are reusable blocks of code.</p>
+      <p><strong>Defining a Function</strong></p>
+      <code>def greet(name):
+        return f"Hello, {name}!"</code>
+      <p><strong>Calling a Function</strong></p>
+      <code>message = greet("Alice")
+        print(message)</code>
+    </section>
+    
+    <!--Try it Yourself-->
+    <section class="main-section" id="Try_It_Yourself!">
+      <header><strong>Try it Yourself!</strong></header>
+      <p>Congrats! You've just learned the basics of Python. Try running the sample code below in <a href="https://onecomplier.com/python">OpenComplier</a> and see how it appears.</p>
+      <code>for x in "banana": 
+        print(x)</code>
+      </code>
+    </section>
+
+    <!--Resources-->
+    <section class="main-section" id="Resources">
+      <header></strong>Resources</strong></header>
+      <p>If you want to learn more, or want additional practice, please see the additional resources below.</p>
+    </section>
+    <p><a href="https://www.w3schools.com/python/default.asp">W3 Schools - Python Tutorial</a></p>
+    <p><a href="https://www.geeksforgeeks.org/python-basics/#">Geeks for Geeks - Learn Python Basics</a></p>
+    <p><a href="https://wiki.python.org/moin/BeginnersGuide/Programmers">Python - Beginners Guide/Programmers</a></p>
+  </main>
+  </body>
+
+</html>
